@@ -10,6 +10,11 @@ import android.os.Looper;
 import com.xuancanhit.hotelmanagementsystem.ui.activities.admin.AdminLoginActivity;
 import com.xuancanhit.hotelmanagementsystem.ui.activities.customer.CustomerLoginActivity;
 
+/**
+ * Main activity of the Hotel Management System.
+ * This activity handles the initial screen and navigation.
+ * @author QUANGMIREA
+ */
 public class MainActivity extends AppCompatActivity {
     //Time Splash before run app
     int splash_time = 1500;
