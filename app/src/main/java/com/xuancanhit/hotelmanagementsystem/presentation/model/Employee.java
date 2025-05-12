@@ -7,26 +7,26 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 public class Employee implements Parcelable {
-    @SerializedName("EmpId")
+    @SerializedName("EmployeeId")
     @Expose
     private String empId;
-    @SerializedName("EmpName")
+    @SerializedName("EmployeeName")
     @Expose
     private String empName;
 
-    @SerializedName("EmpPosition")
+    @SerializedName("EmployeeEmployeePosition")
     @Expose
     private String empPosition;
 
-    @SerializedName("EmpSalary")
+    @SerializedName("EmployeeSalary")
     @Expose
     private String empSalary;
 
-    @SerializedName("EmpPhone")
+    @SerializedName("EmployeePhone")
     @Expose
     private String empPhone;
 
-    @SerializedName("EmpAvatar")
+    @SerializedName("EmployeeAvatar")
     @Expose
     private String empAvatar;
 
